@@ -2,7 +2,7 @@ package com.wgy.datastructure.linkedlist.sortedlist;
 
 /**
  * Created by wanggy on 2021/6/23.
- *
+ *  表插入排序
  * @author wanggy
  */
 public class ListInsertionSortApp {
