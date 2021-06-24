@@ -1,7 +1,5 @@
 package com.wgy.datastructure.linkedlist.doublylinkedlist;
 
-import com.wgy.datastructure.linkedlist.doublylinkedlist.DoublyLinkedList;
-
 /**
  * Created by wanggy on 2021/6/23.
  *
@@ -16,8 +14,24 @@ public class DoublyLinkedApp {
         list.insertFirst(44);
         list.insertFirst(66);
 
+
         list.insertLast(11);
         list.insertLast(33);
         list.insertLast(55);
+
+        list.displayForward();
+        list.displayBackward();
+
+        list.deleteFirst();
+        list.deleteLast();
+        list.deleteKey(11);
+
+        list.displayForward();
+
+        list.insertAfter(22, 77);
+        list.insertAfter(33, 88);
+
+        list.displayForward();
+
     }
 }
